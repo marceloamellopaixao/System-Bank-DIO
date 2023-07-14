@@ -99,6 +99,8 @@ while True:
         elif opcao == 3:
             print('[---------[EXTRATO]---------]')
             print()
+            print("Não foram realizadas movimentações." if not extrato else extrato)
+            print()
             print(extrato)
             print()
             menu()
