@@ -31,6 +31,8 @@ menu()
 while True:
     try:
         opcao = int(input('Digite a opção desejada: '))
+        while opcao <= 0 or opcao > 4:
+            opcao = int(input('Opção inválida! Digite novamente a opção desejada: '))
         print()
 
         if opcao == 1:
