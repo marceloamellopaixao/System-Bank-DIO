@@ -166,8 +166,6 @@ def menu():
         for user in user_clients:
             if user:
                 user_act = f"{user['nome']}"
-            else:
-                print('Usuário não encontrado')
 
         print(f'       {user_act} ------ [Saldo Atual: R$ {saldo:.2f}]       ')
         print(f'           Limite do Banco: R$ {limite:.2f}')
